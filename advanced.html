@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            form {
+                text-align : left;
+            }
+            p {
+                display: inline-block;
+            }
+            #advancedSubmit {
+                background-color: #4d90fe;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">main search</a>
+        <!--<a href="advanced.html">advanced search</a>-->
+        <form action="https://www.google.com/search">
+            <p>Find pages with...</p>
+            <br>
+            <p>all these words:</p><input type="text" name="as_q">
+            <br>
+            <p>this exact word or phrase:</p><input type="text" name="as_epq">
+            <br>
+            <p>any of these words:</p><input type="text" name="as_oq">
+            <br>
+            <p>none of these words:</p><input type="text" name="as_eq">
+            <br>
+            <input type="submit" id="advancedSubmit" value="Advanced Search">
+        </form>
+    </body>
+</html>
