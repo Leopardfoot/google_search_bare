@@ -3,8 +3,18 @@
     <head>
         <title>Image Search</title>
         <style>
+            a {
+                display: inline-block;
+                padding: 5px;
+                margin: 0 5px;
+                color: #bdc1c6;
+            }
             form {
                 text-align : center;
+            }
+            .term {
+                border-radius : 24px;
+                border : 1px solid #5f6368;
             }
         </style>
     </head>
@@ -12,7 +22,7 @@
         <a href="index.html">main search</a>
         <!--<a href="advanced.html">advanced search</a>-->
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
+            <input class="term" type="text" name="q">
             <input type="hidden" name="tbm" value="isch">
             <br>
             <br>
